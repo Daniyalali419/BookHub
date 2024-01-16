@@ -1,0 +1,21 @@
+.header-content{
+    min-height: 90vh;
+    background:linear-gradient(rgba(130, 88, 144, 0.318), rgba(145, 139, 234, 0.386)),
+    url("../../Images/background-image.jpg") center/cover no-repeat;
+    flex-direction: column;
+    
+}
+
+.header-title{
+    font-size: 5.2rem;
+}
+.header-title:hover{
+    color: var(--purple-color);
+    transition: var(--transition);
+}
+.header-text{
+    margin-top: -1.8rem;
+    margin-bottom: 2.8rem;
+ 
+    max-width: 770px;
+}
